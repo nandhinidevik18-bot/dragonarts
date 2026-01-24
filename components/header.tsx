@@ -5,6 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { SettingsPanel } from "@/components/settings-panel";
 
 const navLinks = [
   { href: "#home", label: "Home" },
@@ -68,6 +69,7 @@ export function Header() {
             >
               <Link href="#trial">Book Free Trial</Link>
             </Button>
+            <SettingsPanel />
           </div>
 
           {/* Mobile Menu Button */}

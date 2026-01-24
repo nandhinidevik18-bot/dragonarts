@@ -88,7 +88,8 @@
   }
   body {
     @apply text-foreground;
-    background-color: #DC2626;
+    background: linear-gradient(135deg, #D4A574 0%, #C9967A 25%, #B85C38 50%, #A13333 75%, #8B2525 100%);
+    background-attachment: fixed;
     min-height: 100vh;
   }
   html {
